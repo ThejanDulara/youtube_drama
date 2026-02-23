@@ -31,7 +31,20 @@ def run_for_date(target_date):
     not_found = 0
     errors = 0
 
+    # Determine if target_date is Weekday (WD) or Weekend (WE)
+    # weekday() returns 0 for Monday, 6 for Sunday. 0-4 = WD, 5-6 = WE
+    is_weekend = target_date.weekday() >= 5
+    current_schedule_type = "WE" if is_weekend else "WD"
+    
+    lines.append(f"Processing {current_schedule_type} programs for {target_date}")
+    lines.append("")
+
     for d in DRAMAS:
+        # Skip if drama schedule doesn't match target date type
+        drama_type = d.get("schedule_type", "WD")
+        if drama_type != current_schedule_type:
+            continue
+
         base_row = {
             "drama_key": d["drama_key"],
             "drama_name": d["drama_name"],
@@ -58,7 +71,8 @@ def run_for_date(target_date):
                 youtube=youtube,
                 channel_id=d["channel_id"],
                 keywords=d["title_keywords"],
-                target_date=target_date
+                target_date=target_date,
+                tz_name=TZ
             )
 
             if not found:

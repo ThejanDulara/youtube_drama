@@ -29,10 +29,17 @@ def date_variants(target_date):
         d.strftime("%d-%m-%Y"),
     ]
 
-def find_video_for_date(youtube, channel_id: str, keywords: list[str], target_date):
-    # Define publish window (±1 day buffer)
-    start_dt = datetime.combine(target_date - timedelta(days=1), datetime.min.time()).replace(tzinfo=timezone.utc)
-    end_dt = datetime.combine(target_date + timedelta(days=1), datetime.max.time()).replace(tzinfo=timezone.utc)
+import pytz
+
+def find_video_for_date(youtube, channel_id: str, keywords: list[str], target_date, tz_name="Asia/Colombo"):
+    # Define search window: 6:00 PM on target_date to 6:00 PM next day (LK time)
+    tz = pytz.timezone(tz_name)
+    start_dt_lk = tz.localize(datetime.combine(target_date, datetime.strptime("18:00", "%H:%M").time()))
+    end_dt_lk = start_dt_lk + timedelta(days=1)
+
+    # YouTube API expects UTC
+    start_dt_utc = start_dt_lk.astimezone(timezone.utc)
+    end_dt_utc = end_dt_lk.astimezone(timezone.utc)
 
     resp = youtube.search().list(
         part="snippet",
@@ -40,8 +47,8 @@ def find_video_for_date(youtube, channel_id: str, keywords: list[str], target_da
         maxResults=50,
         order="date",
         type="video",
-        publishedAfter=start_dt.isoformat().replace("+00:00", "Z"),
-        publishedBefore=end_dt.isoformat().replace("+00:00", "Z"),
+        publishedAfter=start_dt_utc.isoformat().replace("+00:00", "Z"),
+        publishedBefore=end_dt_utc.isoformat().replace("+00:00", "Z"),
         q=" ".join(keywords)
     ).execute()
 

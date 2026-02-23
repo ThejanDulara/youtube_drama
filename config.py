@@ -9,6 +9,7 @@ DRAMAS = [
         "channel_name": "HIRU TV",
         "channel_id": "UCOtYyt7W5PmPnwQjWWF_Z-Q",
         "title_keywords": ["Paata Kurullo", "පාට කුරුල්ලෝ"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "akurata_yana_welawe",
@@ -17,6 +18,7 @@ DRAMAS = [
         "channel_name": "HIRU TV",
         "channel_id": "UCOtYyt7W5PmPnwQjWWF_Z-Q",
         "title_keywords": ["Akurata Yana Welawe", "අකුරට යන වෙලාවේ"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "ron_soyaa",
@@ -25,6 +27,7 @@ DRAMAS = [
         "channel_name": "HIRU TV",
         "channel_id": "UCOtYyt7W5PmPnwQjWWF_Z-Q",
         "title_keywords": ["Ron Soyaa", "රොන් සොයා"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "tharu_adare",
@@ -33,6 +36,7 @@ DRAMAS = [
         "channel_name": "HIRU TV",
         "channel_id": "UCOtYyt7W5PmPnwQjWWF_Z-Q",
         "title_keywords": ["Tharu Adare", "තරු ආදරේ"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "chanchala_rekha",
@@ -41,6 +45,7 @@ DRAMAS = [
         "channel_name": "HIRU TV",
         "channel_id": "UCOtYyt7W5PmPnwQjWWF_Z-Q",
         "title_keywords": ["Chanchala Rekha", "චංචල රේඛා"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "oba_enna_awith_yanna",
@@ -49,6 +54,7 @@ DRAMAS = [
         "channel_name": "HIRU TV",
         "channel_id": "UCOtYyt7W5PmPnwQjWWF_Z-Q",
         "title_keywords": ["Oba Enna Awith Yanna", "ඔබ එන්න ඇවිත් යන්න"],
+        "schedule_type": "WE",
     },
 
     # ================= DERANA =================
@@ -59,6 +65,7 @@ DRAMAS = [
         "channel_name": "DERANA",
         "channel_id": "UCRDDfbYPHX_GUJ4lcQYTc8A",
         "title_keywords": ["Iskole", "ඉස්කෝලේ"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "sangeethe",
@@ -67,6 +74,7 @@ DRAMAS = [
         "channel_name": "DERANA",
         "channel_id": "UC0f3jD9QZsKxQ0T5QZxXzRw",
         "title_keywords": ["Sangeethe", "සංගීතේ"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "deweni_inima",
@@ -75,6 +83,7 @@ DRAMAS = [
         "channel_name": "DERANA",
         "channel_id": "UC0f3jD9QZsKxQ0T5QZxXzRw",
         "title_keywords": ["Deweni Inima", "දෙවෙනි ඉනිම"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "hithagannama_bari_kathawak",
@@ -83,6 +92,7 @@ DRAMAS = [
         "channel_name": "DERANA",
         "channel_id": "UC0f3jD9QZsKxQ0T5QZxXzRw",
         "title_keywords": ["Hithagannama Bari Kathawak", "හිතාගන්නම බැරි කතාවක්"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "man_adarei",
@@ -91,6 +101,7 @@ DRAMAS = [
         "channel_name": "DERANA",
         "channel_id": "UC0f3jD9QZsKxQ0T5QZxXzRw",
         "title_keywords": ["Man Adarei", "මං ආදරෙයි"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "thappara_katta",
@@ -99,6 +110,7 @@ DRAMAS = [
         "channel_name": "DERANA",
         "channel_id": "UC0f3jD9QZsKxQ0T5QZxXzRw",
         "title_keywords": ["Thappara Katta", "තප්පර කට්ටා"],
+        "schedule_type": "WE",
     },
 
     # ================= SIRASA TV =================
@@ -109,6 +121,7 @@ DRAMAS = [
         "channel_name": "SIRASA TV",
         "channel_id": "UC4HxYf6GZ0sZ5m2b0k8z5xA",
         "title_keywords": ["Kalu Ahasa", "කළු අහස"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "aaley",
@@ -117,6 +130,7 @@ DRAMAS = [
         "channel_name": "SIRASA TV",
         "channel_id": "UC4HxYf6GZ0sZ5m2b0k8z5xA",
         "title_keywords": ["Aaley", "ආලේ"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "maayavi",
@@ -125,6 +139,7 @@ DRAMAS = [
         "channel_name": "SIRASA TV",
         "channel_id": "UC4HxYf6GZ0sZ5m2b0k8z5xA",
         "title_keywords": ["Maayavi", "මායාවී"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "aalawanthi",
@@ -133,6 +148,7 @@ DRAMAS = [
         "channel_name": "SIRASA TV",
         "channel_id": "UC4HxYf6GZ0sZ5m2b0k8z5xA",
         "title_keywords": ["Aalawanthi", "ආලවන්තී"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "kotu",
@@ -141,6 +157,7 @@ DRAMAS = [
         "channel_name": "SIRASA TV",
         "channel_id": "UC4HxYf6GZ0sZ5m2b0k8z5xA",
         "title_keywords": ["Kotu", "කොටු"],
+        "schedule_type": "WD",
     },
 
     # ================= SWARNAVAHINI =================
@@ -151,6 +168,7 @@ DRAMAS = [
         "channel_name": "SWARNAVAHINI",
         "channel_id": "UCaIc6SgS90ud_RgMSC6hW_w",
         "title_keywords": ["Sinto", "සින්ටෝ"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "hiripoda_wessa",
@@ -159,6 +177,7 @@ DRAMAS = [
         "channel_name": "SWARNAVAHINI",
         "channel_id": "UCaIc6SgS90ud_RgMSC6hW_w",
         "title_keywords": ["Hiripoda Wessa", "හිරිපොද වැස්ස"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "maa",
@@ -167,6 +186,7 @@ DRAMAS = [
         "channel_name": "SWARNAVAHINI",
         "channel_id": "UCaIc6SgS90ud_RgMSC6hW_w",
         "title_keywords": ["Maa", "මා"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "pirimi_lamai",
@@ -175,6 +195,7 @@ DRAMAS = [
         "channel_name": "SWARNAVAHINI",
         "channel_id": "UCaIc6SgS90ud_RgMSC6hW_w",
         "title_keywords": ["Pirimi Lamai", "පිරිමි ළමයි"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "jahuta",
@@ -183,6 +204,7 @@ DRAMAS = [
         "channel_name": "SWARNAVAHINI",
         "channel_id": "UCaIc6SgS90ud_RgMSC6hW_w",
         "title_keywords": ["Jahuta", "ජහුටා"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "taxikaraya",
@@ -191,6 +213,7 @@ DRAMAS = [
         "channel_name": "SWARNAVAHINI",
         "channel_id": "UCaIc6SgS90ud_RgMSC6hW_w",
         "title_keywords": ["Taxikaraya", "ටැක්සිකාරයා"],
+        "schedule_type": "WE",
     },
     {
         "drama_key": "jeewitheta_kotiyak",
@@ -199,6 +222,7 @@ DRAMAS = [
         "channel_name": "SWARNAVAHINI",
         "channel_id": "UCaIc6SgS90ud_RgMSC6hW_w",
         "title_keywords": ["Jeewitheta Kotiyak", "ජීවිතේට කෝටියක්"],
+        "schedule_type": "WE",
     },
 
     # ================= ITN =================
@@ -209,6 +233,7 @@ DRAMAS = [
         "channel_name": "ITN",
         "channel_id": "UCQTcNhAZidy1i9wwmdgf2Lw",
         "title_keywords": ["Pahe Lamai", "පහේ ළමයි"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "mama_saha_oba",
@@ -217,6 +242,7 @@ DRAMAS = [
         "channel_name": "ITN",
         "channel_id": "UCQTcNhAZidy1i9wwmdgf2Lw",
         "title_keywords": ["Mama Saha Oba", "මම සහ ඔබ"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "sihineka_thaniwela",
@@ -225,6 +251,7 @@ DRAMAS = [
         "channel_name": "ITN",
         "channel_id": "UCQTcNhAZidy1i9wwmdgf2Lw",
         "title_keywords": ["Sihineka Thaniwela", "සිහිනෙක තනිවෙලා"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "visekari",
@@ -233,6 +260,7 @@ DRAMAS = [
         "channel_name": "ITN",
         "channel_id": "UCQTcNhAZidy1i9wwmdgf2Lw",
         "title_keywords": ["Visekari", "විසේකාරී"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "lbw",
@@ -241,6 +269,7 @@ DRAMAS = [
         "channel_name": "ITN",
         "channel_id": "UCQTcNhAZidy1i9wwmdgf2Lw",
         "title_keywords": ["LBW"],
+        "schedule_type": "WE",
     },
     {
         "drama_key": "patti_gedara",
@@ -249,6 +278,7 @@ DRAMAS = [
         "channel_name": "ITN",
         "channel_id": "UCQTcNhAZidy1i9wwmdgf2Lw",
         "title_keywords": ["Patti Gedara", "පට්ටි ගෙදර"],
+        "schedule_type": "WE",
     },
 
     # ================= RUPAVAHINI =================
@@ -259,6 +289,7 @@ DRAMAS = [
         "channel_name": "RUPAVAHINI",
         "channel_id": "UCT83ymyAGm7Gnk_4ifxjxIA",
         "title_keywords": ["Bedda Addara", "බැද්ද අද්දර"],
+        "schedule_type": "WD",
     },
     {
         "drama_key": "adaraniya_minisek",
@@ -267,6 +298,7 @@ DRAMAS = [
         "channel_name": "RUPAVAHINI",
         "channel_id": "UCT83ymyAGm7Gnk_4ifxjxIA",
         "title_keywords": ["Adaraniya Minisek", "ආදරණීය මිනිසෙක්"],
+        "schedule_type": "WE",
     },
     {
         "drama_key": "dorakada_dewola",
@@ -275,6 +307,7 @@ DRAMAS = [
         "channel_name": "RUPAVAHINI",
         "channel_id": "UCT83ymyAGm7Gnk_4ifxjxIA",
         "title_keywords": ["Dorakada Dewola", "දොරකඩ දෙවොල"],
+        "schedule_type": "WE",
     },
 ]
 

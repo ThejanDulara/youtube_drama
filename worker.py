@@ -39,6 +39,7 @@ def run_for_date(target_date):
             "channel_name": d["channel_name"],
             "channel_id": d["channel_id"],
             "target_date": str(target_date),
+            "schedule_type": d.get("schedule_type", "WD"),
 
             "video_id": None,
             "video_title": None,

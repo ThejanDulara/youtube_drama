@@ -9,7 +9,7 @@ UPSERT_SQL = """
 INSERT INTO youtube_episode_metrics (
   drama_key, drama_name, episode_number,
   channel_key, channel_name, channel_id,
-  target_date,
+  target_date, schedule_type,
   video_id, video_title, video_url, video_published_at,
   views, likes, comments,
   scrape_status, scrape_note,
@@ -18,7 +18,7 @@ INSERT INTO youtube_episode_metrics (
 VALUES (
   :drama_key, :drama_name, :episode_number,
   :channel_key, :channel_name, :channel_id,
-  :target_date,
+  :target_date, :schedule_type,
   :video_id, :video_title, :video_url, :video_published_at,
   :views, :likes, :comments,
   :scrape_status, :scrape_note,
